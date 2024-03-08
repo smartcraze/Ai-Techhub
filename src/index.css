@@ -9,7 +9,6 @@
     padding: 0;
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
-    /* color: inherit; */
     font-size: inherit;
     background-color: rgb(249, 250,251);
   }
