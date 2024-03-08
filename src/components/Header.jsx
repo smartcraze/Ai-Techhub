@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <div className="header bg-slate-700 text-white py-4 px-8 flex justify-between items-center">
+    <div className="header bg-slate-700 text-black py-4 px-8 flex justify-between items-center">
       <div className="flex items-center">
         <Link
-          className="font-bold text-2xl text-white hover:text-red-700"
+          className="font-bold text-2xl text-black hover:text-red-700"
           to="/"
         >
           Ai TechHub
