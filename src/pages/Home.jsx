@@ -10,13 +10,7 @@ function Home() {
           <p className="mt-4">Your gateway to artificial intelligence</p>
         </div>
       </header>
-      <div
-        className="flex justify-around items-center flex-wrap gap-20 h-70vh bg-cover bg-center"
-        style={{
-          backgroundColor: "rgba(245, 40, 145, 0.8)",
-          backgroundImage: 'url("bglaw.jpg")',
-        }}
-      >
+      <div className="flex justify-around items-center flex-wrap gap-8 py-16">
         <Card
           imageUrl="law1.jpg"
           title="Right to Education"
