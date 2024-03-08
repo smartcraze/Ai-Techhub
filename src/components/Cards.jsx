@@ -5,14 +5,17 @@ const Card = (props) => {
   const { imageUrl, title, text, buttonText, buttonLink } = props;
 
   return (
-    <div className="card" style={{ width: "18rem", boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)", borderRadius: "10px", transition: "transform 0.3s ease", ":hover": { transform: "scale(1.5)" } }}>
-      <img className="card-img-top" src={imageUrl} alt="Card image cap" style={{ borderRadius: "10px 10px 0 0" }} />
-      <div className="card-body bg-white rounded" >
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{text}</p>
-       
-      </div>
+    <div className="flex items-center justify-center">
+  <div className="bg-white rounded-lg border-2 border-black shadow-md hover:shadow-xl transform transition-transform duration-300 hover:scale-105" style={{ width: "18rem" }}>
+    <img className="rounded-t-lg w-full" src={imageUrl} alt="Card image cap" />
+    <div className="p-4">
+      <h5 className="text-lg font-semibold">{title}</h5>
+      <p className="text-gray-700 text-sm">{text}</p>
     </div>
+  </div>
+</div>
+
+
   );
 };
 
