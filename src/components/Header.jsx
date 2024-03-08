@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../utils/AuthContext';
 
+
 const Header = () => {
     const navigate = useNavigate();
     const { user, logoutUser } = useAuth();
@@ -11,11 +12,10 @@ const Header = () => {
     };
 
     return (
-        <div className="header bg-gray-800 text-white py-4 px-8 flex justify-between items-center">
+        <div className="header bg-slate-700 text-white py-4 px-8 flex justify-between items-center">
             <div>
-                <Link id="header-logo" to="/">Ai Techhub</Link>
+                <Link id="header-logo" to="/">Ai TechHub</Link>
             </div>
-
             <div className="links--wrapper">
                 {user ? (
                     <>
@@ -28,6 +28,7 @@ const Header = () => {
                     <Link className="btn mr-4" to="/login">Login</Link>
                 )}
             </div>
+            
         </div>
     );
 };
