@@ -14,25 +14,25 @@ function Home() {
         <Card
           imageUrl="python.jpeg"
           title="Python"
-          text="Children have the right to an education. School is a great place for children to learn about their world, and decide how they might want to change it, so that it’s better for everybody."
+          text="Python is renowned for its versatility, finding utility across diverse domains. From web development and data analysis to artificial intelligence, scientific computing, and automation, Python empowers developers with its ease of use and flexibility. Its popularity stems from its capability to tackle various tasks efficiently, making it a favored language worldwide."
           buttonLink="/page1"
         />
         <Card
           imageUrl="javascript.jpeg"
           title="Javascript"
-          text="Children have the right to play. It's vital for learning problem-solving skills and fostering collaboration when they play together. Let kids play freely.When children play together, they learn!"
+          text="JavaScript serves as the backbone of client-side scripting in web development, executing within web browsers. Developers harness its power to imbue websites with dynamic behavior, enabling responses to user interactions, manipulation of HTML content, and facilitation of asynchronous requests. Its pivotal role in web interactivity cements JavaScript."
           buttonLink="/page1"
         />
         <Card
           imageUrl="html.png"
           title="HTML & Css"
-          text="The right to say and be heard is one of the most important rights we have. It means that every person has the freedom to express their thoughts, feelings, and opinions without fear."
+          text="Html consists of a series of elements, represented by tags, which define the different parts of a web page, such as headings, paragraphs, images, links, forms, and more.HTML documents are organized into a hierarchical structure, with elements nested inside other elements to create the desired layout and content structure.css is style structured sheet."
           buttonLink="/page1"
         />
         <Card
           imageUrl="c p.jpeg"
           title="C programming"
-          text="The right to equality is a fundamental principle that ensures that all individuals are treated fairly and without discrimination. It means that everyone, regardless of their race, gender are same."
+          text="C stands as a versatile general-purpose programming language, adaptable to a multitude of applications. From system programming and embedded systems to game development, its reputation for high performance precedes it. With its efficiency and reliability, C remains a stalwart choice for developers seeking to tackle diverse and demanding computing tasks."
           buttonLink="/page1"
         />
       </div>
