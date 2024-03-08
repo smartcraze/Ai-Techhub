@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <div className="header bg-slate-700 text-black py-4 px-8 flex justify-between items-center">
+    <div className="header bg-slate-700 text-white py-4 px-8 flex justify-between items-center">
       <div className="flex items-center">
         <Link
-          className="font-bold text-2xl text-black hover:text-red-700"
+          className="font-bold text-2xl text-white hover:text-red-700"
           to="/"
         >
           Ai TechHub
@@ -23,16 +23,16 @@ const Header = () => {
       <div className="links--wrapper">
         {user ? (
           <>
-            <Link to="/" className="font-bold mr-4">
+            <Link to="/" className="cursor-pointer font-bold mr-4">
               Home
             </Link>
-            <Link to="/chat" className="font-bold mr-4">
+            <Link to="/chat" className="cursor-pointer font-bold mr-4">
               Chat
             </Link>
-            <Link to="/course" className="font-bold mr-4">
+            <Link to="/course" className="cursor-pointer font-bold mr-4">
               Courses
             </Link>
-            <Link to="/profile" className="font-bold mr-4">
+            <Link to="/profile" className="font-bold cursor-pointer mr-4">
               Profile
             </Link>
 
