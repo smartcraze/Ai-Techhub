@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom"; // Import Link
 import Card from "../components/Cards";
 import Banner from "./Banner";
+import Stats from "./Stats";
+import Footer from "../components/Footer/Footer";
+
 
 function Home() {
   return (
@@ -27,7 +30,9 @@ function Home() {
         </div>                
     </div>
 </section>
+      <Stats/>
       
+      <Footer/>
     
     </>
   );
