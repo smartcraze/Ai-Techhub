@@ -1,18 +1,74 @@
+
 # Ai Techhub
+
 ## 84 Ai based It training system
-"AiTech Hub" is your gateway to the exciting world of artificial intelligence and technology education. With AiTech Hub, you embark on a journey of discovery, learning, and innovation. Whether you're a beginner curious about AI or an experienced tech enthusiast looking to expand your knowledge, AiTech Hub provides a comprehensive platform tailored to your learning needs.
+"AiTech Hub offers a comprehensive platform for AI and technology education, catering to both beginners and experienced enthusiasts. Embark on a journey of discovery and innovation with AiTech Hub's curated resources and tailored learning experiences."
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-At AiTech Hub, we believe in the power of AI to transform lives and drive progress. Our mission is to democratize access to AI education and empower individuals from all backgrounds to thrive in the digital age. With a diverse range of courses, resources, and community support, AiTech Hub equips you with the skills and confidence to navigate the rapidly evolving landscape of technology.
 
-## Key features
+## Screenshots
 
-<!-- For detailed documentation, visit [Documentation](https://linktodocumentation). -->
-Personalized Learning: The system can understand what you already know and what you need to learn more about. It then creates a special learning plan just for you, so you can learn at your own pace.
+![App Screenshot](mainpage.png)
+![App Screenshot](aibot.png)
+![App Screenshot](profile.png)
+![App Screenshot](login.png)
+![App Screenshot](register.png)
 
-Interactive Lessons: Instead of just reading from a book, the system can show you videos, animations, and interactive exercises to make learning more fun and engaging.
+## Key Features 
+- Personalized Learning: Tailored learning plans based on your knowledge and needs.
+- Interactive Lessons: Engaging videos, animations, and exercises for enhanced learning.
+- Feedback and Assistance: Get hints and tips when you're stuck, fostering independent learning.
+<!-- - Progress Tracking: Monitor your learning journey and identify areas for improvement. -->
+- Continuous Improvement: System evolves over time, optimizing teaching methods based on user feedback.
+- Ai powered Bot
+- Fully responsive
+- Fully Functional Application
 
-Feedback and Assistance: If you get stuck on something, the system can give you hints and tips to help you figure it out. It's like having a helpful friend who's always there to assist you.
 
-Progress Tracking: The system keeps track of your progress, so you can see how much you've learned and what you still need to work on. It's like earning points in a game, but instead, you're earning knowledge!
+## Lessons Learned
+We delved into backend authentication and explored AI, broadening our web development expertise.
+## Tech Stack
 
-Continuous Improvement: Just like you learn new things every day, the system also learns and improves over time. It gets better at teaching you as it learns more about what works best for you.
+**Client:** React, Redux, TailwindCSS
+
+**Server:** Node, Appwrite Service as a Backend
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/smartcraze/Ai-Techhub
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+# You can Interact With Ai Bot
+
+
