@@ -24,10 +24,12 @@ function App() {
             <Route element={<PrivateRoutes />}>
               <Route path="/" element={<Home/>}/>
               <Route path="/profile" element={<Profile/>}/>
-              <Route path="/course" element={Course}/>
+              <Route path="/course" element={<Course/>}/>
               <Route path="/chat" element={<Chat/>}/>
             </Route>
           </Routes>
+
+          
         </AuthProvider>
     </Router>
   )
