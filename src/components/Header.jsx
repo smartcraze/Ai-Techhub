@@ -31,6 +31,7 @@ const Header = () => {
             <Link to="/course" className="cursor-pointer font-bold mr-4">
               Courses
             </Link>
+            <a className="cursor-pointer font-bold mr-4" href="https://mediafiles.botpress.cloud/7ce6a27c-e104-4354-93ed-abc4d3ed57a2/webchat/bot.html">Bot</a>
             <Link to="/profile" className="font-bold cursor-pointer mr-4">
               Profile
             </Link>
