@@ -4,6 +4,7 @@ import Card from "../components/Cards";
 import Banner from "./Banner";
 import Stats from "./Stats";
 import Footer from "../components/Footer/Footer";
+import Chatbot from "./Chatbot";
 // import BotChat from "./BotChat";
 
 function Home() {
@@ -30,7 +31,7 @@ function Home() {
           </div>                
         </div>
       </section>
-      {/* <BotChat/> */}
+      <Chatbot/>
       <Stats />
       <Footer />
     </>
