@@ -23,16 +23,16 @@ const Header = () => {
       <div className="links--wrapper">
         {user ? (
           <>
-            <Link to="/" className="font-bold mr-4">
+            <Link to="/" className="cursor-pointer font-bold mr-4">
               Home
             </Link>
-            <Link to="/chat" className="font-bold mr-4">
+            <Link to="/chat" className="cursor-pointer font-bold mr-4">
               Chat
             </Link>
-            <Link to="/course" className="font-bold mr-4">
+            <Link to="/course" className="cursor-pointer font-bold mr-4">
               Courses
             </Link>
-            <Link to="/profile" className="font-bold mr-4">
+            <Link to="/profile" className="font-bold cursor-pointer mr-4">
               Profile
             </Link>
 
@@ -52,6 +52,7 @@ const Header = () => {
           </Link>
         )}
       </div>
+      
     </div>
   );
 };

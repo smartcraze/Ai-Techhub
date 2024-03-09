@@ -1,52 +1,40 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link
 import Card from "../components/Cards";
+import Banner from "./Banner";
+import Stats from "./Stats";
+import Footer from "../components/Footer/Footer";
+
 
 function Home() {
   return (
-    <div className="bg-black min-h-[92vh]">
-      <header className="bg-no-repeat bg-cover bg-center py-40" style={{ backgroundImage: "url('bg.jpg')",opacity:"1" }}>
-  <div className="container mx-auto text-center">
-  <h1 className="text-4xl font-bold text-white shadow-lg  border-gray-300 p-4">
-  Welcome to AI TechHub
-</h1>
-
-
-    <p className="mt-4 text-white text-2xl">
-      Your gateway to artificial intelligence
-    </p>
-  </div>
-</header>
-\
-      <div className="relative flex justify-around items-center flex-wrap gap-8 py-16">
-        {/* <div className="absolute inset-0 z-0">
-      <img className="w-full h-full object-cover" src="python.jpeg" alt="Background" />
-    </div> */}
-        <Card
-          imageUrl="python.jpeg"
-          title="Python"
-          text="Python is renowned for its versatility, finding utility across diverse domains. From web development and data analysis to artificial intelligence, scientific computing, and automation, Python empowers developers with its ease of use and flexibility. Its popularity stems from its capability to tackle various tasks efficiently, making it a favored language worldwide."
-          buttonLink="/page1"
-        />
-        <Card
-          imageUrl="javascript.jpeg"
-          title="Javascript"
-          text="JavaScript serves as the backbone of client-side scripting in web development, executing within web browsers. Developers harness its power to imbue websites with dynamic behavior, enabling responses to user interactions, manipulation of HTML content, and facilitation of asynchronous requests. Its pivotal role in web interactivity cements JavaScript."
-          buttonLink="/page1"
-        />
-        <Card
-          imageUrl="html.png"
-          title="HTML & Css"
-          text="Html consists of a series of elements, represented by tags, which define the different parts of a web page, such as headings, paragraphs, images, links, forms, and more.HTML documents are organized into a hierarchical structure, with elements nested inside other elements to create the desired layout and content structure.css is style structured sheet."
-          buttonLink="/page1"
-        />
-        <Card
-          imageUrl="c p.jpeg"
-          title="C programming"
-          text="C stands as a versatile general-purpose programming language, adaptable to a multitude of applications. From system programming and embedded systems to game development, its reputation for high performance precedes it. With its efficiency and reliability, C remains a stalwart choice for developers seeking to tackle diverse and demanding computing tasks."
-          buttonLink="/page1"
-        />
-      </div>
+    <>
+    <Banner/>
+    <section className="bg-white dark:bg-gray-900 ">
+    <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div className="mr-auto place-self-center lg:col-span-7">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"> Welcome To Ai     TechHub</h1>
+            <p className="max-w-2xl  mb-6 font-bold text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">Your One step solution for <span className="text-red-600 "> IT </span>training</p>
+            {/* Use Link instead of anchor tag */}
+            <Link to="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Get started
+                <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </Link>
+            {/* Use Link instead of anchor tag */}
+            <Link to="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                Speak to Sales
+            </Link> 
+        </div>
+        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img src="ai hero.png" alt="mockup"/>
+        </div>                
     </div>
+</section>
+      <Stats/>
+      
+      <Footer/>
+    
+    </>
   );
 }
 
