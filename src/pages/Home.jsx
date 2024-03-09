@@ -3,7 +3,7 @@ import Card from "../components/Cards";
 
 function Home() {
   return (
-    <div className="bg-red-200 min-h-[92vh]">
+    <div className="bg-black min-h-[92vh]">
       <header className="bg-no-repeat bg-cover bg-center py-40" style={{ backgroundImage: "url('bg.jpg')",opacity:"1" }}>
   <div className="container mx-auto text-center">
   <h1 className="text-4xl font-bold text-white shadow-lg  border-gray-300 p-4">
@@ -16,7 +16,7 @@ function Home() {
     </p>
   </div>
 </header>
-
+\
       <div className="relative flex justify-around items-center flex-wrap gap-8 py-16">
         {/* <div className="absolute inset-0 z-0">
       <img className="w-full h-full object-cover" src="python.jpeg" alt="Background" />
