@@ -1,25 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto flex justify-between items-center px-4">
         <p className="text-sm">© 2024 Your Company. All rights reserved.</p>
         <ul className="flex space-x-6">
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors duration-300">
-              Privacy Policy
-            </a>
+            <Link to="/" className="hover:text-gray-300 transition-colors duration-300">
+              Home
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors duration-300">
-              Terms of Service
-            </a>
+            <Link to="/course" className="hover:text-gray-300 transition-colors duration-300">
+              Courses
+            </Link>
           </li>
           <li>
-            <a href="#" className="hover:text-gray-300 transition-colors duration-300">
-              Contact Us
-            </a>
+            <Link to="/profile" className="hover:text-gray-300 transition-colors duration-300">
+              Profile
+            </Link>
+          </li>
+          <li>
+            <Link to="/chat" className="hover:text-gray-300 transition-colors duration-300">
+              Chat
+            </Link>
           </li>
         </ul>
       </div>

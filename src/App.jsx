@@ -9,6 +9,7 @@ import Profile from './pages/Profile'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Course from './components/Course/Course'
+// import BotChat from './pages/BotChat'
 
 
 
@@ -25,6 +26,7 @@ function App() {
               <Route path="/" element={<Home/>}/>
               <Route path="/profile" element={<Profile/>}/>
               <Route path="/course" element={<Course/>}/>
+              {/* <Route path="/chat" element={<BotChat/>}/> */}
             </Route>
           </Routes>
 
