@@ -91,12 +91,7 @@ const Header = () => {
           >
             Home
           </Link>
-          <Link
-            to="/chat"
-            className="block text-white py-2 px-4 font-semibold hover:bg-gray-700 rounded"
-          >
-            Chat
-          </Link>
+          
           <Link
             to="/course"
             className="block text-white py-2 px-4 font-semibold hover:bg-gray-700 rounded"
