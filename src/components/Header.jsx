@@ -27,9 +27,7 @@ const Header = () => {
             <Link to="/" className="cursor-pointer font-bold mr-4">
               Home
             </Link>
-            <Link to="/chat" className="cursor-pointer font-bold mr-4">
-              Chat
-            </Link>
+            
             <Link to="/course" className="cursor-pointer font-bold mr-4">
               Courses
             </Link>
