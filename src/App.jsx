@@ -8,11 +8,8 @@ import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Login from './pages/Login'
 import Register from './pages/Register'
-// import CoursesPage from './components/Course/CoursesPage'
-
-import Chat from './components/Chat/Chat'
+import ChatComponent from './components/Chat/ChatComponent'
 import Course from './components/Course/Course'
-
 
 
 function App() {
@@ -27,8 +24,8 @@ function App() {
             <Route element={<PrivateRoutes />}>
               <Route path="/" element={<Home/>}/>
               <Route path="/profile" element={<Profile/>}/>
+              <Route path="/course" element={<Course/>}/>
               <Route path="/chat" element={<Chat/>}/>
-              <Route path="/chat" element={<Course/>}/>
             </Route>
           </Routes>
 
