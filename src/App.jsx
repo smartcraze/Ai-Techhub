@@ -9,8 +9,9 @@ import Profile from './pages/Profile'
 import Login from './pages/Login'
 import Register from './pages/Register'
 // import CoursesPage from './components/Course/CoursesPage'
-import Course from './components/Course/Course'
+
 import Chat from './components/Chat/Chat'
+import Course from './components/Course/Course'
 
 function App() {
 

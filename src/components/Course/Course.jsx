@@ -1,20 +1,9 @@
-import CourseCard from "./CourseCard";
-import CoursesPage from "./CoursesPage";
+import React from 'react'
 
-const Course = () => {
+function Course() {
   return (
-    <>
-    
-    <CoursesPage/>
-    <CourseCard/>
-    <footer className="bg-gray-800 text-white py-4 text-center">
-      <p>&copy; 2024 Coding Courses. All rights reserved.</p>
-      <div>
-      
-      </div>
-    </footer>
-    </>
-  );
-};
+    <div>Course</div>
+  )
+}
 
-export default Course;
+export default Course
