@@ -28,6 +28,8 @@ function App() {
               <Route path="/chat" element={<ChatComponent/>}/>
             </Route>
           </Routes>
+
+          
         </AuthProvider>
     </Router>
   )
