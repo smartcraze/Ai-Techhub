@@ -25,6 +25,10 @@ const videos = [
     src: "https://www.youtube.com/embed/vz1RlUyrc3w",
     title: "Video Title 8",
   },
+  {
+    src: "https://youtu.be/-ETQ97mXXF0?si=mq3KM7w285y2Dln8",
+    title: "Video Title 8",
+  },
 ];
 
 function Course() {

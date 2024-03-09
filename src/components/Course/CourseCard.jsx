@@ -2,7 +2,7 @@ import React from "react";
 
 const CourseCard = ({ src, title }) => {
   return (
-    <div className="">
+     <div className="">
       {/* Video Section */}
       <div className="relative aspect-w-16 aspect-h-9">
         <iframe
