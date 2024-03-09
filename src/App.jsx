@@ -13,6 +13,8 @@ import Register from './pages/Register'
 import Chat from './components/Chat/Chat'
 import Course from './components/Course/Course'
 
+
+
 function App() {
 
   return (
@@ -25,12 +27,12 @@ function App() {
             <Route element={<PrivateRoutes />}>
               <Route path="/" element={<Home/>}/>
               <Route path="/profile" element={<Profile/>}/>
-              <Route path="/course" element={<Course/>}/>
               <Route path="/chat" element={<Chat/>}/>
+              <Route path="/chat" element={<Course/>}/>
             </Route>
           </Routes>
 
-          
+
         </AuthProvider>
     </Router>
   )
