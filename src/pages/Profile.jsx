@@ -5,7 +5,7 @@ const Profile = () => {
     const { user } = useAuth();
 
     return (
-        <div className="flex items-center justify-center h-[90vh] bg-purple-400">
+        <div className=" bg-gradient-to-br from-gray-900 to-black   flex items-center justify-center h-[90vh]">
             <div className="max-w-xs w-full">
                 <div className="profile-card bg-white shadow-xl rounded-lg overflow-hidden transform transition-transform duration-500 hover:rotate-y-180 perspective-1000 hover:shadow-2xl">
                     <div className="p-4 text-center">
