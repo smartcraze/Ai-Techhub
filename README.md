@@ -2,6 +2,7 @@
 # Ai Techhub
 
 ## 84 Ai based It training system
+## CODS204 CODE OFF DUTY
 "AiTech Hub offers a comprehensive platform for AI and technology education, catering to both beginners and experienced enthusiasts. Embark on a journey of discovery and innovation with AiTech Hub's curated resources and tailored learning experiences."
 
 
