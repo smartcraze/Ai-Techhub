@@ -2,7 +2,7 @@ import React from "react";
 
 function Stats() {
   return (
-    <div className="dark:bg-gray-900 py-12 sm:py-16 lg:py-10">
+    <div className="bg-slate-950 py-12 sm:py-16 lg:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-white mb-12">Trusted by</h1>
         <div className="grid grid-cols-1 gap-12 sm:gap-16 lg:grid-cols-3">
