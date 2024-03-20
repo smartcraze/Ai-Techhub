@@ -3,6 +3,7 @@
 ## 84 Ai based It training system
 ## CODS204 CODE OFF DUTY
 ## Welcome to AiTech Hub - Your Gateway to AI Education
+[View our deploy version of this Project](https://ai-techhub.vercel.app/)
 
 Embark on a journey of discovery and innovation with AiTech Hub, where cutting-edge AI technology meets comprehensive IT education. Whether you're a beginner or an experienced enthusiast, we offer personalized learning experiences tailored to your needs.
 
